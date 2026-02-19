@@ -1,10 +1,9 @@
-@"
 version: 2
 updates:
-  - package-ecosystem: `"pip`"
-    directory: `"/`"
+  - package-ecosystem: "pip"
+    directory: "/"
     schedule:
-      interval: `"weekly`"
+      interval: "weekly"
     commit-message:
-      prefix: `"deps`"
-"@ | Out-File -FilePath .github/dependabot.yml -Encoding ASCII
+      prefix: "deps"
+
